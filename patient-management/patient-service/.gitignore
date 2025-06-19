@@ -31,3 +31,101 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Logs
+*.log
+logs/
+*.pid
+
+# --- Maven ---
+target/
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# --- Gradle ---
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+**/build/
+
+# Gradle caches
+.caches/
+gradle-app.setting
+gradle.properties
+
+# --- Spring Boot ---
+/*.jar
+/*.war
+spring.log
+
+# --- IDEs & Editors ---
+## IntelliJ
+.idea/
+*.iws
+*.ipr
+*.iml
+out/
+
+## Eclipse
+.project
+.classpath
+.cproject
+.settings/
+bin/
+
+## VSCode
+.vscode/
+
+# --- OS-specific ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --- Environment & Secrets ---
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+
+# --- Others ---
+*.swp
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# --- Test Reports ---
+test-output/
+surefire-reports/
+jacoco.exec
+
+# --- Docker ---
+*.pid
+*.seed
+docker-compose.override.yml
+.docker/
